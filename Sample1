@@ -1,0 +1,41 @@
+Scanner key = new Scanner (System.in);
+		
+		do
+		{
+		int floorselect = 0;
+		
+		System.out.print("\n\tWelcome to floors direct !");
+		
+		System.out.print("\n\tPlease select the type of flooring from the following three options: ");
+		
+		My.p("\n\t1 Wood");
+		
+		My.p("\n\t2 Tile");
+		
+		My.p("\n\t3 Carpet");
+		
+		My.p("\n\tPlease enter choice");
+		floorselect  = key.nextInt();
+		
+		switch (floorselect)
+		
+		{case 1: 
+			
+			floorselect wood 
+			
+		case 2 tiles
+		
+		case 3 carpets
+		
+		
+		
+		
+		}
+		
+		} while floorselect !=4
+		
+		
+		
+		
+
+	}
