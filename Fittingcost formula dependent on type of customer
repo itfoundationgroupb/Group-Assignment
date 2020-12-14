@@ -1,0 +1,28 @@
+do {
+       My.p("\n\tPlease input 1 if you are an commercial customer or 2 if you are a domestic customer: ");
+       typeofcustomer = key.nextInt();
+       
+     switch (typeofcustomer)
+     {
+     case 2:
+     if (area >= 0 && area <=20)
+     {
+    	 fittingcost = 200.00;
+     }
+     
+     else if (area >= 21 && area <= 40)
+     {
+    	 fittingcost = 350.00;
+     }
+     
+     else if (area >40)
+    	 
+     {
+    	 fittingcost = area - 40 * 7 + 350.00;
+    	 
+     }
+     break;
+     }
+       
+       
+       }while (typeofcustomer!= 1);
