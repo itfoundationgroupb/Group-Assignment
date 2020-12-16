@@ -1,0 +1,17 @@
+My.p("\n\tWelcome to Floors Direct");
+		
+		do {
+		My.p("Please select the type of flooring from the following: ");
+		My.p("\n\n\t1 Wooden Floors");
+		My.p("\n\n\t2 Carpets");
+		My.p("\n\n\t3 Tiles");
+		My.p("\n\n\t4 to proceed to final bill");
+		My.p("\n\n\tPlease select which floor you want: ");
+		floortype = key.nextInt();
+        switch (floortype)
+        {
+        case 1:
+        woodenfloorprice(4.2, 5.5);
+        break;
+        }
+		}while (floortype !=4);
